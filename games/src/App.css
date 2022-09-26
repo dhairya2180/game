@@ -12,6 +12,23 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.background,.App{
+ background-image: url("../public/media/giphy.gif");
+ height: 800px;
+  color: #61dafb;
+contain: content;
+background-repeat: no-repeat;
+background-size: cover;
+/* width: fit-content; */
+}
+
+.alightNan{
+  flex-grow:0 !important;
+}
+.backgoundnavbar{
+  background-image: url("../public/media/giphy.gif");
+ 
+}
 
 .App-header {
   background-color: #282c34;
